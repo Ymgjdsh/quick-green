@@ -3,7 +3,7 @@ name: Auto-Green
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"   # 每10分钟执行一次
+    - cron: "*/15 * * * *"   # 每15分钟执行一次
 
 jobs:
   auto-commit:
